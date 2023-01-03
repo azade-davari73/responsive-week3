@@ -1,0 +1,166 @@
+    :root {
+        --main-color: #803595;
+        /* --main-color: #aa0ca8; */
+
+
+        /* --main-color: #6c757d; */
+        --main-color-op: #aa0ca82b;
+        --border-btn: 1px solid #aa0ca8;
+
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: rgb(255, 102, 203);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #flowerBtn {
+        background: var(--main-color);
+        color: white;
+    }
+
+    .container {
+        text-align: center;
+
+    }
+
+    .name {
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .btn1 {
+        color: white;
+        background: var(--main-color);
+        border-radius: 7px;
+    }
+
+    .btn2 {
+        border-radius: 7px;
+        border: var(--border-btn);
+        background: transparent;
+    }
+
+    .navbar {
+        background: var(--main-color);
+    }
+
+    #contactBtn:hover {
+        color: white
+    }
+
+
+
+    .weather-app-wrapper {
+        max-width: 600px;
+        margin: 30px auto;
+    }
+
+    .searchInput {
+        display: block;
+        width: 100%;
+        background: #f9f7fe;
+        border: none;
+        border-radius: 6px;
+        color: rgba(39, 33, 66, .4);
+        padding: 15px 20px;
+        height: calc(1.5em + .75rem + 2px);
+    }
+
+    .weather-app {
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+        color: #878787;
+        font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+        padding: 40px;
+    }
+
+    .weather-app ul li {
+        color: rgba(39, 33, 66, .4);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        margin-bottom: 5px;
+    }
+
+    .weather-app ul li span {
+        color: #f65282;
+    }
+
+    .overview {
+        margin-bottom: 20px;
+    }
+
+    .weather-temperature img {
+        margin-right: 5px;
+        height: 64px;
+        width: 64px;
+    }
+
+    .weather-temperature strong {
+        color: rgb(33, 33, 33);
+        font-size: 64px;
+        line-height: 1;
+        font-weight: 400;
+    }
+
+    .weather-temperature .units {
+        position: relative;
+        font-size: 16px;
+        top: -34px;
+    }
+
+    .weather-temperature .active {
+        color: rgb(33, 33, 33);
+        cursor: default;
+    }
+
+    .weather-temperature .active:hover {
+        text-decoration: none;
+    }
+
+    .weather-temperature :hover {
+        text-decoration: none;
+    }
+
+    .weather-forecast {
+        margin-top: 20px;
+        text-align: center;
+        color: #000;
+    }
+
+    .weather-forecast-date {
+        font-size: 16px;
+        opacity: 0.5;
+    }
+
+    .weather-forecast-temperature-min {
+        opacity: 0.5;
+    }
+
+    .weather-forecast-temperatures {
+        font-size: 13px;
+    }
+
+    @media screen and (max-width: 992px) {
+
+        #weatherBtn,
+        #yogurtBtn,
+        #searchBtn {
+            font-size: 12px;
+        }
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
